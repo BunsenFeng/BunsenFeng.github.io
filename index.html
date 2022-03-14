@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 20% 20% 60% 20%;
+      grid-template-rows: auto auto;
+      padding: 10px;
+      justify-content: center;
+      column-gap: 10px;
+    }
+ 
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      font-size: 18px;
+      text-align: left;
+      vertical-align: middle;
+    }
+    p {
+      margin:20px;
+      padding:0px;
+      font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    }
+    a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: white;
+    background-color: #6AA84F;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 90%;
+    }
+    img {
+    padding-top: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    }
+    ul {
+      font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    }
+    </style>
+</head>
+
+<body>
+
+<div class="grid-container">
+    <div class="grid-item"></div>
+    <div class="grid-item">
+      <img src="file/profile.jpeg" alt="Shangbin photo">
+    </div>
+    <div class="grid-item">
+      <p style="text-align:left;font-size:220%;"><b>Shangbin Feng</b></p>
+      <p style="text-align:left;">
+        Greetings! I am an incoming Ph.D. student at University of Washington, advised by <a href="https://homes.cs.washington.edu/~yuliats/">Yulia Tsvetkov</a>. I work on natural language processing, knowledge graphs, and social network analysis. Before joining UW, I was the director of the undergraduate research group <a href="https://luoundergradxjtu.github.io/">LUD Lab</a> and worked with <a href="http://gr.xjtu.edu.cn/en/web/minnluo/home">Minnan Luo</a>.
+      </p>
+      <p> Links: &nbsp
+        <a href="file/CV.pdf" class="button">Curriculum vitae</a> &nbsp
+        <a href="shangbin@uw.edu" class="button">Email</a> &nbsp
+        <a href="https://twitter.com/BunsenFeng" class="button">Twitter</a> &nbsp
+        <a href="https://github.com/BunsenFeng" class="button">Github</a> &nbsp
+        <a href="https://scholar.google.com/citations?user=Y3rLP9UAAAAJ&hl=en&oi=ao" class="button">Google Scholar</a> &nbsp
+        <a href="https://www.semanticscholar.org/author/Shangbin-Feng/2114887261" class="button">Semantic Scholar</a>
+      </p>
+    </div>
+    <div class="grid-item"></div>
+</div>
+
+<hr style="width:80%">
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item">
+    <p style="text-align:left;font-size:150%;">Publications</p>
+  </div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item">
+    <img src="file/HeteroBot-teaser.png" alt="HeteroBot Teaser">
+  </div>
+  <div class="grid-item">
+    <p>
+      <b>Heterogeneity-aware Twitter Bot Detection with Relational Graph Transformers</b>
+    </p>
+    <p>
+      <b>Shangbin Feng</b>, Zhaoxuan Tan, Rui Li, Minnan Luo
+    </p>
+    <p>
+      AAAI 2022 &nbsp
+      <a href="https://arxiv.org/abs/2109.02927" class="button">paper</a> &nbsp
+      <a href="https://github.com/BunsenFeng/BotHeterogeneity" class="button">code</a> &nbsp
+      <a href="file/HeteroBot-poster.pdf" class="button">poster</a>
+    </p>
+    <p>
+      We introduce relational graph transformers to model relation and influence heterogeneities on Twitter for heterogeneity-aware Twitter bot detection.
+    </p>
+  </div>
+  <div class="grid-item"></div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item">
+    <img src="file/PPD-teaser.png" alt="PPD Teaser">
+  </div>
+  <div class="grid-item">
+    <p>
+      <b>Knowledge Graph Augmented Political Perspective Detection in News Media</b>
+    </p>
+    <p>
+      <b>Shangbin Feng</b>*, Zilong Chen*, Wenqian Zhang*, Qingyao Li, Qinghua Zheng, Xiaojun Chang, Minnan Luo (* indicates equal contribution)
+    </p>
+    <p>
+      arxiv 2021 &nbsp
+      <a href="https://arxiv.org/abs/2108.03861" class="button">paper</a> &nbsp
+      <a href="https://github.com/BunsenFeng/news_stance_detection" class="button">code</a> &nbsp
+    </p>
+    <p>
+      We construct a political knowledge graph and propose a graph-based approach for knowledge-aware political perspective detection.
+    </p>
+  </div>
+  <div class="grid-item"></div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item">
+    <img src="file/PPSGCN-teaser.png" alt="PPSGCN Teaser">
+  </div>
+  <div class="grid-item">
+    <p>
+      <b>PPSGCN: A Privacy-Preserving Subgraph Sampling Based Distributed GCN Training Method</b>
+    </p>
+    <p>
+      Binchi Zhang, Minnan Luo, <b>Shangbin Feng</b>, Ziqi Liu, Jun Zhou, Qinghua Zheng
+    </p>
+    <p>
+      arxiv 2021 &nbsp
+      <a href="https://arxiv.org/abs/2110.12906" class="button">paper</a> &nbsp
+    </p>
+    <p>
+      We propose a distributed and federated graph learning approach to cut back on training overhead and address non-iid data distribution.
+    </p>
+  </div>
+  <div class="grid-item"></div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item">
+    <img src="file/PAR-teaser.png" alt="PAR Teaser">
+  </div>
+  <div class="grid-item">
+    <p>
+      <b>Legislator Representation Learning with Social Context and Expert Knowledge</b>
+    </p>
+    <p>
+      <b>Shangbin Feng</b>, Zhaoxuan Tan, Zilong Chen, Peisheng Yu, Qinghua Zheng, Xiaojun Chang, Minnan Luo
+    </p>
+    <p>
+      arxiv 2021 &nbsp
+      <a href="https://arxiv.org/abs/2108.03881" class="button">paper</a> &nbsp
+      <a href="https://github.com/BunsenFeng/entity_stance_prediction" class="button">code</a> &nbsp
+    </p>
+    <p>
+      We propose to learn representations of polical actors with social context and expert knowlegde, while applying learned representations to tasks in computational political science.
+    </p>
+  </div>
+  <div class="grid-item"></div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item">
+    <img src="file/BotRGCN-teaser.png" alt="BotRGCN Teaser">
+  </div>
+  <div class="grid-item">
+    <p>
+      <b>BotRGCN: Twitter Bot Detection with Relational Graph Convolutional Networks</b>
+    </p>
+    <p>
+      <b>Shangbin Feng</b>, Herun Wan, Ningnan Wang, Minnan Luo
+    </p>
+    <p>
+      ASONAM 2021 Short &nbsp
+      <a href="https://arxiv.org/abs/2106.13092" class="button">paper</a> &nbsp
+      <a href="https://github.com/BunsenFeng/BotRGCN" class="button">code</a> &nbsp
+    </p>
+    <p>
+      We propose a graph-based approach for Twitter bot detection with relational graph convolutional networks and four aspects of user information.
+    </p>
+  </div>
+  <div class="grid-item"></div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item">
+    <img src="file/TwiBot-20-teaser.png" alt="TwiBot-20 Teaser">
+  </div>
+  <div class="grid-item">
+    <p>
+      <b>TwiBot-20: A Comprehensive Twitter Bot Detection Benchmark</b>
+    </p>
+    <p>
+      <b>Shangbin Feng</b>, Herun Wan, Ningnan Wang, Jundong Li, Minnan Luo
+    </p>
+    <p>
+      CIKM 2021 Resource &nbsp
+      <a href="https://arxiv.org/abs/2106.13088" class="button">paper</a> &nbsp
+      <a href="https://github.com/BunsenFeng/TwiBot-20" class="button">code</a> &nbsp
+      <a href="file/TwiBot-20-poster.pdf" class="button">poster</a>
+    </p>
+    <p>
+      We propose a (the first) comprehensive Twitter bot detection benchmark that covers diversified users and supports graph-based approaches.
+    </p>
+  </div>
+  <div class="grid-item"></div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item">
+    <img src="file/SATAR-teaser.png" alt="SATAR Teaser">
+  </div>
+  <div class="grid-item">
+    <p>
+      <b>SATAR: A Self-supervised Approach to Twitter Account Representation Learning and its Application in Bot Detection</b>
+    </p>
+    <p>
+      <b>Shangbin Feng</b>, Herun Wan, Ningnan Wang, Jundong Li, Minnan Luo
+    </p>
+    <p>
+      CIKM 2021 Applied &nbsp
+      <a href="https://arxiv.org/abs/2106.13089" class="button">paper</a> &nbsp
+      <a href="https://github.com/BunsenFeng/SATAR" class="button">code</a> &nbsp
+      <a href="file/SATAR-poster.pdf" class="button">poster</a>
+    </p>
+    <p>
+      We propose to pre-train Twitter user representations with follower count and fine-tune on Twitter bot detection.
+    </p>
+  </div>
+  <div class="grid-item"></div>
+</div>
+
+<hr style="width:80%">
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item">
+    <p style="text-align:left;font-size:150%;">Miscellaneous</p>
+  </div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item">
+    <ul>
+      <li>My Chinese name is 冯尚彬 and I go by either Shangbin or Bunsen.</li>
+      <li>Define data augmentation: p->b. Use this rule to augment champagne to get Shangbin.</li>
+      <li>If you would like to contact me
+        <ul>
+          <li>about data and resources (mostly TwiBot-20): Please use your institutional e-mail and tell me a bit about your project.</li>
+          <li>about code in my papers: Please open an issue on Github. It would more convenient for you and me to keep in touch.</li>
+          <li>about other stuff: Looking forward to hearing about your "other stuff"!</li>
+        </ul>
+      </li>
+      <li>I did my undergrad at Xi'an Jiaotong University. I founded the <a href="https://luoundergradxjtu.github.io/">LUD Lab</a> while I was there.</li>
+      <li>My previous homepage was too complex and I decided to switch to this one.</li>
+    </ul>
+  </div>
+  <div class="grid-item"></div>
+</div>
+
+</body>
+</html>
