@@ -1,0 +1,96 @@
+# Selected publications, shown on the home page in this order.
+# authors: "*" = equal contribution (keep the original order), "†" = mentored student.
+# My name is highlighted automatically.
+# impact (optional): list of {text, url} shown after the venue, e.g. adoption or press;
+#   text may contain its own <a> links (then leave out url).
+
+- title: Scaling Participation in Modular AI Systems
+  authors: Shangbin Feng, Yike Wang†, Weijia Shi, Luke Zettlemoyer, Yejin Choi, Yulia Tsvetkov
+  venue: Under review at a journal, 2026
+  paper: https://arxiv.org/abs/2606.07812
+  code: https://github.com/BunsenFeng/model_collaboration
+
+- title: "Compositional RL: Evaluating and Training LLMs for Collaborative Reasoning"
+  authors: Shangbin Feng, Yulia Tsvetkov, Jan Kautz, David Acuna
+  venue: Under review, 2026
+
+- title: Multi-LLM Collaborative Alignment via Stackelberg Games
+  authors: Christina Hahn*†, Shangbin Feng*, Dean Light, Swastik Roy, Hila Gonen, Yulia Tsvetkov
+  venue: Under review, 2026
+  paper: https://arxiv.org/abs/2609.39076
+  code: https://github.com/BunsenFeng/model_collaboration
+
+- title: "MoCo: A One-Stop Shop for Model Collaboration Research"
+  authors: Shangbin Feng*, Yuyang Bai*†, Ziyuan Yang*†, Yike Wang†, Zhaoxuan Tan†, Jiajie Yan, Zhenyu Lei†, Wenxuan Ding†, Weijia Shi, Haojin Wang, Zhenting Qi, Yuru Jiang†, Heng Wang†, Chengsong Huang, Yu Fei, Jihan Yao†, Yilun Du, Luke Zettlemoyer, Yejin Choi, Yulia Tsvetkov
+  venue: Under review, 2026
+  paper: https://arxiv.org/abs/2601.21257
+  code: https://github.com/BunsenFeng/model_collaboration
+
+- title: "Among Us: Measuring and Mitigating Malicious Contributions in Model Collaboration Systems"
+  authors: Ziyuan Yang*†, Wenxuan Ding*†, Shangbin Feng*, Yulia Tsvetkov
+  venue: ACL 2026
+  award: Senior Area Chair Award, Oral
+  paper: https://arxiv.org/abs/2602.05176
+  code: https://github.com/Ziyuan-Yang/AmongUs
+
+- title: When One LLM Drools, Multi-LLM Collaboration Rules
+  authors: Shangbin Feng, Wenxuan Ding†, Alisa Liu, Zifeng Wang, Weijia Shi, Yike Wang†, Zejiang Shen, Xiaochuang Han, Hunter Lang, Chen-Yu Lee, Tomas Pfister, Yejin Choi, Yulia Tsvetkov
+  venue: ACL 2026
+  award: Oral
+  paper: https://arxiv.org/abs/2502.04506
+
+- title: "Sparta Alignment: Collectively Aligning Multiple Language Models through Combat"
+  authors: Yuru Jiang*†, Wenxuan Ding*†, Shangbin Feng*, Greg Durrett, Yulia Tsvetkov
+  venue: NeurIPS 2025
+  paper: https://arxiv.org/abs/2506.04721
+  code: https://github.com/yurujiang2003/sparta
+
+- title: "Heterogeneous Swarms: Jointly Optimizing Model Roles and Weights for Multi-LLM Systems"
+  authors: Shangbin Feng, Zifeng Wang, Palash Goyal, Yike Wang†, Weijia Shi, Huang Xia, Hamid Palangi, Luke Zettlemoyer, Yulia Tsvetkov, Chen-Yu Lee, Tomas Pfister
+  venue: NeurIPS 2025
+  impact:
+    - text: Integrated into Google's Gemini Enterprise Agent Designer
+  paper: https://arxiv.org/abs/2502.04510
+  code: https://github.com/BunsenFeng/heterogeneous_swarm
+
+- title: "Model Swarms: Collaborative Search to Adapt LLM Experts via Swarm Intelligence"
+  authors: Shangbin Feng, Zifeng Wang, Yike Wang†, Sayna Ebrahimi, Hamid Palangi, Lesly Miculicich, Achin Kulshrestha, Nathalie Rauschmayr, Yejin Choi, Yulia Tsvetkov, Chen-Yu Lee, Tomas Pfister
+  venue: ICML 2025
+  paper: https://arxiv.org/abs/2410.11163
+  code: https://github.com/BunsenFeng/model_swarm
+
+- title: "Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration"
+  authors: Shangbin Feng, Taylor Sorensen, Yuhan Liu†, Jillian Fisher, Chan Young Park, Yejin Choi, Yulia Tsvetkov
+  venue: EMNLP 2024
+  paper: https://arxiv.org/abs/2406.15951
+  code: https://github.com/BunsenFeng/modular_pluralism
+
+- title: "Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration"
+  authors: Shangbin Feng, Weijia Shi, Yike Wang†, Wenxuan Ding†, Vidhisha Balachandran, Yulia Tsvetkov
+  venue: ACL 2024
+  award: Outstanding Paper Award, Senior Area Chair Award
+  paper: https://arxiv.org/abs/2402.00367
+  code: https://github.com/BunsenFeng/AbstainQA
+
+- title: "Knowledge Card: Filling LLMs' Knowledge Gaps with Plug-in Specialized Language Models"
+  authors: Shangbin Feng, Weijia Shi, Yuyang Bai†, Vidhisha Balachandran, Tianxing He, Yulia Tsvetkov
+  venue: ICLR 2024
+  award: Oral
+  paper: https://arxiv.org/abs/2305.09955
+  code: https://github.com/BunsenFeng/Knowledge_Card
+
+- title: Can Language Models Solve Graph Problems in Natural Language?
+  authors: Heng Wang*†, Shangbin Feng*, Tianxing He, Zhaoxuan Tan†, Xiaochuang Han, Yulia Tsvetkov
+  venue: NeurIPS 2023
+  award: Spotlight
+  paper: https://arxiv.org/abs/2305.10037
+  code: https://github.com/Arthur-Heng/NLGraph
+
+- title: "From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models"
+  authors: Shangbin Feng, Chan Young Park, Yuhan Liu†, Yulia Tsvetkov
+  venue: ACL 2023
+  award: Best Paper Award
+  impact:
+    - text: 'Covered by <a href="https://www.washingtonpost.com/technology/2023/08/16/chatgpt-ai-political-bias-research/">The Washington Post</a> and <a href="https://www.technologyreview.com/2023/08/07/1077324/ai-language-models-are-rife-with-political-biases/">MIT Technology Review</a>'
+  paper: https://arxiv.org/abs/2305.08283
+  code: https://github.com/BunsenFeng/PoliLean

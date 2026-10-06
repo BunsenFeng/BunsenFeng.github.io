@@ -1,0 +1,26 @@
+title: Shangbin Feng
+description: >-
+  Shangbin Feng, PhD candidate at the University of Washington,
+  on the 2026-2027 faculty job market.
+  Compositional intelligence for participatory AI.
+url: https://bunsenfeng.github.io
+baseurl: ""
+repository: BunsenFeng/BunsenFeng.github.io
+email: shangbin@cs.washington.edu
+google_analytics: G-7MZLF35N8T
+
+# links in the header row
+scholar: https://scholar.google.com/citations?user=Y3rLP9UAAAAJ&hl=en
+github: https://github.com/BunsenFeng
+twitter: https://twitter.com/shangbinfeng
+cv: /file/CV.pdf
+
+# mark mentored students with a dagger in the publication list
+mark_mentees: false
+
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

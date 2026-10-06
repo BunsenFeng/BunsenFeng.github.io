@@ -1,0 +1,70 @@
+# Students I mentored, shown on the home page in this order (current first).
+# url is optional; set show: false to hide someone without deleting the entry.
+# current: true shows "currently <now>" instead of "-> <now>" (students still with me).
+
+- name: Christina Hahn
+  url: https://www.linkedin.com/in/christina-hahn-503b7329a/
+  now: MS student, UW
+  current: true
+
+- name: Ziyuan Yang
+  url: https://ziyuan-yang.github.io/
+  now: MS student, UW
+  current: true
+
+- name: Zongwan Cao
+  url: https://scholar.google.com/citations?user=jLSHqQYAAAAJ
+  now: MS student, UW
+  current: true
+
+- name: Yizhuo Zhang
+  url: https://matthewyzhang.github.io/
+  now: Glean
+
+- name: Yuru Jiang
+  url: https://yurujiang2003.github.io/tintinjiang.github.io/
+  now: Max Planck Institute
+
+- name: Varich Boonsanong
+  url: https://scholar.google.com/citations?user=pv19KeMAAAAJ
+  now: Snowflake
+
+- name: Jihan Yao
+  url: https://yaojh18.github.io/
+  now: PhD student, UW
+
+- name: Zifeng Zhu
+  url: https://zivenzhu.github.io/
+  now: PhD student, Xi'an Jiaotong University
+
+- name: Wenxuan Ding
+  url: https://wenwen-d.github.io/
+  now: PhD student, NYU
+
+- name: Yichen Wang
+  url: https://yichenzw.com/
+  now: PhD student, UChicago
+
+- name: Yike Wang
+  url: https://yikee.github.io/
+  now: PhD student, UW
+
+- name: Yuyang Bai
+  url: https://yuyangbai.com/
+  now: PhD student, Texas A&M
+
+- name: Yuhan Liu
+  url: https://yuhanliu.super.site/
+  now: PhD student, NYU
+
+- name: Heng Wang
+  url: https://arthur-heng.github.io/
+  now: PhD student, UIUC
+
+- name: Zhaoxuan Tan
+  url: https://zhaoxuan.info/
+  now: PhD student, Notre Dame
+
+- name: Zhenyu Lei
+  url: https://lzyfischer.github.io/
+  now: PhD student, UVA
