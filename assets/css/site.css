@@ -30,7 +30,7 @@ p { margin: 0 0 14px; }
 
 figure { margin: 22px 0; }
 figure img { width: 100%; height: auto; display: block; }
-figure.side { float: right; width: 230px; margin: 4px 0 10px 24px; }
+figure.side { float: right; width: 280px; margin: 4px 0 10px 24px; }
 h2 { clear: both; }
 
 ul.pillars { padding-left: 0; list-style: none; margin: 0 0 16px; }
