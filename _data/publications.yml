@@ -13,6 +13,7 @@
 - title: "Compositional RL: Evaluating and Training LLMs for Collaborative Reasoning"
   authors: Shangbin Feng, Yulia Tsvetkov, Jan Kautz, David Acuna
   venue: Under review, 2026
+  paper: https://arxiv.org/abs/2610.17456
 
 - title: Multi-LLM Collaborative Alignment via Stackelberg Games
   authors: Christina Hahn*†, Shangbin Feng*, Dean Light, Swastik Roy, Hila Gonen, Yulia Tsvetkov
